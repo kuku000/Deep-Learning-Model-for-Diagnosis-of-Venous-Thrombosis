@@ -1,2 +1,9 @@
 # Deep-Learning-Model-for-Diagnosis-of-Venous-Thrombosis
 Using a CNN base model: ResUnet to support doctors diagnose Venous Thrombosis from lower extremity peripheral ultrasound imaging.
+In today's fast-paced lifestyle, the number of people suffering from thrombotic-related diseases has significantly increased. As a result, healthcare professionals, especially doctors, are facing a substantial workload. Therefore, finding ways to assist doctors in diagnosing these diseases quickly and efficiently has become a crucial issue.
+
+Currently, deep vein thrombosis (DVT) examination is most accurately done using vascular ultrasound imaging. However, vascular imaging is an invasive procedure and comes with certain risks. On the other hand, vascular ultrasound is a non-invasive examination method. However, ultrasound interpretation is subjective and heavily relies on the doctor's experience. Hence, we aim to enhance the efficiency of diagnosing thrombotic-related diseases using ultrasound by utilizing deep learning models.
+
+In this study, we employed deep learning convolutional neural networks (CNN) such as Unet and ResNet to accurately label the arterial and venous positions on ultrasound images. We also calculated the changes in veins under pressure as a reference for diagnosing clots. For our dataset, we utilized 570 annotated cardiovascular ultrasound images from Cheng Kung University Hospital. We used the labeled artery and vein positions as our training dataset and trained deep learning models to recognize these positions.
+
+Our models can predict the static positions of arteries and veins in images and also forecast the changes in blood vessels before and after applying pressure in videos. Additionally, we integrated our research findings into a graphical user interface (GUI), enabling doctors to predict images in real-time. This helps doctors in their clinical diagnosis and allows non-professionals to detect deep vein thrombosis as well.
